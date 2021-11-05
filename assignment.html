@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;}
+        .row::after {
+            content: "";
+            clear: both;
+            display: table}
+        </style>
+    <nav>
+        <ul>
+            <li><a href="About">About</a></li>
+            <li><a href="All Products">All Products</a></li>
+            <li><a href="Shop by category">Shop by category</a></li>
+            <li><input type="submit" value="Need help?Contact Us!"></li>
+        </ul>
+    </nav>
+    <head>
+        <h1>Best products in Town</h1>
+        <h2>Buy your favorite products at the best price!</h2>
+        <input type="submit" value="Browse Products">
+    </head>
+    <body>
+        <h1>Bestselling Products </h1>
+        <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="300" height="300">
+        <p>Product Name <br><br><strong>Rating:4/5</strong><br><br>Rs.500</p>
+        <input type="submit" value="Buy Now">
+        <h1>Bestselling Products </h1>
+        <img src="https://images.unsplash.com/photo-1539874754764-5a96559165b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2F0Y2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" width="300" height="300">
+        <p>Product Name <br><br><strong>Rating:4/5</strong><br><br>Rs.500</p>
+        <input type="submit" value="Buy Now">
+        <div>
+            <h1>Customer Feedback</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Rating</th>
+                        <th>Feedback</th>
+                    </tr>
+                    <tr>
+                        <td>Customer Name</td>
+                        <td><image src="https://images.unsplash.com/photo-1444011283387-7b0f76371f12?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lybCUyMGluJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" width="180" height="180"></image></td>
+                        <td>Rating:4/5 </td>
+                        <td>This is the best product I have ever used</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </body>
+    <footer>
+        <h1>Browse by Category</h1>
+        <div class="row">
+            <div class="column">
+              <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Forest" style="width:100%">
+            </div>    
+        </div>
+        <label for="product">Choose a product</label>
+        <select id="product" name="product" required>
+            <option value="product one">Product One</option>
+            <option value="product two">Product Two</option> 
+        </select>
+        <form>
+            <label for="quantity">How many units do you want:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+        </form>
+        <input type="submit" value="Get quote">
+        <nav>
+            <ul>
+                <li><a href="About">About</a></li>
+                <li><a href="All Products">All Products</a></li>
+                <li><a href="Shop by category">Shop by category</a></li>
+                <li><a href="Terms and Conditions">Terms and Conditions</a></li>
+                <li><input type="submit" value="Need help?Contact Us!"></li>
+                <li><img src="https://i.pinimg.com/originals/ad/67/e6/ad67e6346dc1a351ea4a332effecbdf5.png" width=2%></li>
+            </ul>
+        </nav>
+
+
+    </footer>
+        
+    
+</html>
